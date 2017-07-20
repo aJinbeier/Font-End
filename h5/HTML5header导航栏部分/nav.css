@@ -1,0 +1,58 @@
+/*在此完成CSS样式设置*/
+*{
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+header{
+	height: 60px;
+	background: #000;
+}
+header > .container{
+	width: 860px;
+	margin: 0 auto;
+}
+header > .container > a{
+	display: block;
+	float: left;
+	margin: 7px 3px;
+}
+header > .container > a > img{
+	display: block;
+	float: left;
+}
+header > .container > a > span{
+	display: block;
+	float: left;
+	font-size: 20px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 10px;
+	color: #fff;
+}
+header > .container > nav{
+	float: right;
+}
+header > .container > nav > a{
+	float: left;
+	font-size: 16px;/*6px*/
+	height: 54px;
+	line-height: 54px;
+	width: 80px;
+	text-align: center;
+	color: #fff;
+}
+header > .container > nav > .Home{ background: #d40112; }
+header > .container > nav > .Course{ background: #feb800; }
+header > .container > nav > .Actual{ background: #78b917; }
+header > .container > nav > .Plan{ background: #433b90; }
+header > .container > nav > .FAQ{ background: #f27c01; }
+header > .container > nav > .Notes{ background: #017fcb; }
+header > .container > nav > a:hover,
+header > .container > nav > .active{
+	padding-bottom: 6px
+}

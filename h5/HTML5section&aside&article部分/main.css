@@ -1,0 +1,75 @@
+/* 在此完成CSS样式设置*/
+*{
+	padding: 0;
+	margin: 0;
+	border: none;
+	font-family: Arial;
+	font-size: 14px;
+}
+.main {
+	width: 1300px;
+	height: 500px;
+	margin: 34px auto;
+}
+.main h1{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.main h1 > samp {
+	font-size: 30px;
+	font-weight: lighter;
+	color: #7c7c7c;
+}
+.main > aside {
+	position: relative;
+	float: left;
+	width: 486px;
+	margin-left:34px;
+}
+.main > aside > dl {
+	position: relative;
+	display: block;
+	height: 70px;
+	margin-bottom: 15px;
+	left: 5px;
+}
+.main > aside > dl:first-of-type {
+	margin-top: 30px;
+}
+.main > aside > dl > dt {
+	position: absolute;
+	left: 78px;
+	font-size: 16px;
+	line-height: 16px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.main > aside > dl > dd:first-of-type {
+	background-image: url(http://climg.mukewang.com/582e61290001787900500051.png);
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	color: #fff;
+	font-size: 22px;
+	line-height: 50px;
+	text-align: center;
+	left: 5px;
+}
+.main > aside > dl > dd:last-of-type {
+	position: absolute;
+	top: 20px;
+	left: 78px;
+}
+.main > article{
+	float: right;
+	width: 750px;
+	overflow: hidden;
+}
+.main > article > p {
+	margin-bottom: 15px;
+}
+.main > article > img {
+	margin-bottom: 15px;
+	height: 200px;
+	width: 720px;
+}

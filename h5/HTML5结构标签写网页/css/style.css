@@ -1,0 +1,245 @@
+ ALL TAG */
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-family: Microsoft YaHei UI;
+	font-size: 14px;
+	color: #2e2e2e;
+}
+a {
+	text-decoration: none;
+}
+.intro {
+	margin:88px auto auto;
+	text-align: center;
+}
+.intro > h1 {
+	font-size: 48px;
+	color: #f46208;
+	letter-spacing: 5px;
+}
+.intro > p {
+	color: #000;
+	margin: 40px auto;
+	width: 604px;
+}
+
+/*header*/
+header {
+	background: #2e2e2e;
+	height: 70px;
+}
+header .container {
+	margin: 0 auto;
+}
+header .container > a {
+	display: block;
+	float: left;
+	margin-left: 126px;
+	margin-top: 18px;
+}
+header .container > nav {
+	float: right;
+	margin-right: 50px;
+}
+header .container > nav > a {
+	display: block;
+	float: left;
+	height: 70px;
+	width: 90px;
+	line-height: 70px;
+	text-align: center;
+	color: #fff;
+}
+header .container > nav > a:hover {
+	background: #f46208;
+	color: #000;
+}
+/*banner*/
+.banner {
+	position: relative;
+	width: 100%;
+}
+.banner > img {
+	z-index: 1;
+	width: 100%;
+	height: 512px;
+}
+.banner > div {
+	position: absolute;
+	z-index: 2;
+	width: 646px;
+	height: 88px;
+	top: 206px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+}
+.banner > div > h1 {
+	font-size: 48px;
+	font-weight: bold;
+	color: #fff;
+}
+.banner > div > p {
+	color: #fff;
+}
+
+/*Portfolio*/
+.Portfolio {
+	position: relative;
+}
+.Portfolio > .port_type {
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 400px;
+	margin: 0 auto;
+}
+.Portfolio > .port_type > span {
+	border: 1px solid #f46208;
+	color: #f46208;
+	margin: 0 4px;
+}
+.Portfolio > img {
+	margin-top: 70px;
+} 
+
+/*Stats*/
+.Stats > .stats_type {
+	width: 640px;
+	height: 120px;
+	margin: auto;
+}
+.Stats > .stats_type > div {
+	position: relative;
+	top: 10px;
+	width: 110px;
+	height: 110px;
+	float: left;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.Stats > .stats_type > div > img {
+	position: absolute;
+	display: block;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.Stats > .stats_type > div > span:first-of-type {
+	position: absolute;
+	top: 70px;
+	width: 110px;
+	text-align: center;
+}
+.Stats > .stats_type > div > span:last-of-type {
+	position: absolute;
+	top: 98px;
+	color: #f46208;
+	letter-spacing: 5px;
+	width: 110px;
+	text-align: center;
+}
+
+/*Team*/
+.Team {
+	position: relative;
+	margin-top: 98px;
+	background: #2e2e2e;
+	height: 600px;
+}
+.Team > .intro {
+	position: absolute;
+	top: 60px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+}
+.Team > .intro > h1 {
+	font-size: 48px;
+	color: #f46208;
+	letter-spacing: 5px;
+}
+.Team > .intro > p {
+	color: #fff;
+	margin: 40px auto;
+	width: 604px;
+}
+.Team > .team_type {
+	position: absolute;
+	top: 280px;
+	width: 540px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.Team > .team_type > div {
+	text-align: center;
+	float: left;
+	width: 180px;
+	height: 200px;
+}
+.Team > .team_type > div > img {
+	width: 90%;
+}
+.Team > .team_type > div > span {
+	display: block;
+	color: #fff;
+}
+.Team > .team_type > div > p {
+	color: #fff;
+	font-size: 12px;
+}
+
+/*contact_us*/
+.contact_us {
+	background: 
+}
+.contact_us > form {
+	width: 722px;
+	height: 328px;
+	margin: 0 auto;
+}
+.contact_us > form input{
+	margin-bottom: 5px;
+}
+.contact_us > form > input:first-of-type,
+.contact_us > form > input:nth-of-type(2){
+	width: 48%;
+}
+.contact_us > form > input:nth-of-type(3) {
+	width: 722px;
+	height: 250px;
+}
+.contact_us > form > input:last-of-type {
+	width: 154px;
+	height: 42px;
+	line-height: 42px;
+	font-weight: bold;
+	color: white;
+	background:#f46208 ;
+	border-color: #f46208;
+	margin-left: 284px;
+}
+
+
+/*footer*/
+footer{
+	position: relative;
+	background: #2e2e2e;
+	height: 86px;
+	margin-top: 80px;
+}
+footer > p {
+	position: absolute;
+	color: #fff;
+	font-size: 14px;
+	line-height: 86px;
+	left: 0;
+	right: 0;
+	margin:auto;
+	text-align: center;
+}
